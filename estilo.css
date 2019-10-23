@@ -21,7 +21,7 @@ h1{
 
 /*001*/
 h1, h3 , h5 {
-    font-stretch: 125%;
+    font-stretch: expanded;
     color: #fff;
     text-transform: uppercase;
     text-align: center;    
@@ -77,3 +77,29 @@ a{
     border-bottom:1px dotted #9999CC;
     text-decoration:none;
 }
+
+/*001*/
+table {
+  border: red 3px solid;
+}
+
+/*001*/
+pre {
+    text-align: center;
+}
+
+/*010*/
+.texoCancion{
+    text-align: center;
+}
+
+/*011*/
+li::first-letter{
+    font-weight: bold;
+}
+/*001*/
+nav{
+    background-color: rgb(30, 123, 32); 
+    text-align:center;
+}
+
